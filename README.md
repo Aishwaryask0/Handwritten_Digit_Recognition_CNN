@@ -1,31 +1,67 @@
-# Handwritten Digit Recognition CNN
+# Handwritten Digit Recognition using CNN
 
-A Convolutional Neural Network (CNN) built with TensorFlow and Keras 
-that classifies handwritten digits with 99%+ accuracy.
+A deep learning project that uses a Convolutional Neural Network (CNN) to classify handwritten digits from the MNIST dataset using TensorFlow and Keras.
 
 ## Features
-- CNN model trained on 60,000 MNIST images
-- 99%+ accuracy on unseen test data
-- Confusion matrix visualization
-- Real image prediction (draw a digit → model predicts!)
 
-## Technologies Used
-- Python 3.12
-- TensorFlow 2.21
-- Keras
-- NumPy
-- Matplotlib
-- Scikit-learn
+* Handwritten digit classification using CNN
+* Image preprocessing and normalization
+* Model training and evaluation
+* Accuracy and confusion matrix visualization
+* Real-time handwritten digit prediction
+
+## Tech Stack
+
+* Python
+* TensorFlow
+* Keras
+* NumPy
+* Matplotlib
+
+## Dataset
+
+* MNIST Handwritten Digits Dataset
+* 70,000 grayscale digit images
 
 ## Model Architecture
-Conv2D → MaxPooling → Conv2D → MaxPooling → Flatten → Dense → Output(10)
 
-## Results
-- Training Accuracy: 99.3%
-- Test Accuracy: 99.17%
+* Conv2D Layers
+* MaxPooling Layers
+* Dense Layers
+* Activation Functions
+* Softmax Output Layer
 
-## How to Run
-1. Clone the repo
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run: `python main.py`
-4. Predict your own image: `python -c "from src.predict import predict_real_image; predict_real_image('your_image.png')"`
+## How to Run the Project
+
+1. Clone the repository
+
+```bash
+git clone <repository-link>
+```
+
+2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the project
+
+```bash
+python app.py
+```
+
+## Learning Outcomes
+
+* Deep learning fundamentals
+* CNN architecture implementation
+* Image preprocessing techniques
+* Model training and evaluation
+* Real-time prediction workflow
+
+## Future Improvements
+
+* Improve prediction accuracy
+* Support custom datasets
+* Deploy model as web application
+* Add GUI for digit drawing
