@@ -58,10 +58,3 @@ python app.py
 * Image preprocessing techniques
 * Model training and evaluation
 * Real-time prediction workflow
-
-## Future Improvements
-
-* Improve prediction accuracy
-* Support custom datasets
-* Deploy model as web application
-* Add GUI for digit drawing
